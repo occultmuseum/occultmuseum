@@ -1,0 +1,27 @@
+<ns0:pmxstatus xmlns:ns0="local" xml:lang="jp"><pmdinfo><name>木</name><name_e /><comment>モデリング＿銀獅</comment><comment_e /></pmdinfo>
+<morphs><!--表情グループ 0:使用不可 1:まゆ 2:目 3:リップ 4:その他-->
+</morphs>
+<bones><bone add_move="0" add_rot="0" after_physical="0" b_name="Bone" fixed_axis="0" ik="0" level="0" local_axis="0" movable="1" name="Bone" name_e="Bone" operational="1" power="1.0" rotatable="1" visible="1"><local_x x="0.0000000" y="0.0000000" z="0.0000000" /><local_z x="0.0000000" y="0.0000000" z="0.0000000" /></bone>
+<bone add_move="0" add_rot="0" after_physical="0" b_name="球" fixed_axis="0" ik="0" level="0" local_axis="0" movable="1" name="球" name_e="" operational="1" power="1.0" rotatable="1" visible="1"><local_x x="0.0000000" y="0.0000000" z="0.0000000" /><local_z x="0.0000000" y="0.0000000" z="0.0000000" /></bone>
+<bone add_move="0" add_rot="0" after_physical="0" b_name="center" fixed_axis="0" ik="0" level="0" local_axis="0" movable="1" name="センター" name_e="center" operational="1" power="1.0" rotatable="1" visible="1"><local_x x="0.0000000" y="0.0000000" z="0.0000000" /><local_z x="0.0000000" y="0.0000000" z="0.0000000" /></bone>
+</bones>
+<labels>
+<label name="Root" name_e="Root" type="1"><tab name="Bone" type="bone" />
+<tab name="center" type="bone" />
+<tab name="球" type="bone" />
+</label>
+<label name="表情" name_e="Exp" type="1" />
+</labels>
+<materials><material b_name="kakidasi" both="0" drop_shadow="0" edge_size="1.0" ground_shadow="0" name="地面" name_e="kakidasi" on_edge="0" on_shadow="0" toon="-1" use_systemtoon="0"><edge_color a="1.0" b="0.0" g="0.0" r="0.0" /></material>
+<material b_name="kakidasi" both="0" drop_shadow="0" edge_size="1.0" ground_shadow="0" name="空" name_e="kakidasi" on_edge="0" on_shadow="0" toon="-1" use_systemtoon="0"><edge_color a="1.0" b="0.0" g="0.0" r="0.0" /></material>
+<material b_name="kakidasi" both="0" drop_shadow="0" edge_size="1.0" ground_shadow="0" name="遠景" name_e="kakidasi" on_edge="0" on_shadow="0" toon="-1" use_systemtoon="0"><edge_color a="1.0" b="0.0" g="0.0" r="0.0" /></material>
+<material b_name="fog" both="0" drop_shadow="0" edge_size="1.0" ground_shadow="0" name="fog" name_e="" on_edge="0" on_shadow="0" toon="-1" use_systemtoon="0"><edge_color a="1.0" b="0.0" g="0.0" r="0.0" /></material>
+<material b_name="lambert3SG" both="1" drop_shadow="0" edge_size="1.0" ground_shadow="0" name="木" name_e="lambert3SG" on_edge="0" on_shadow="0" toon="-1" use_systemtoon="0"><edge_color a="1.0" b="0.0" g="0.0" r="0.0" /></material>
+<material b_name="kakidasi" both="0" drop_shadow="0" edge_size="1.0" ground_shadow="0" name="葉っぱ上1" name_e="kakidasi" on_edge="0" on_shadow="0" toon="0" use_systemtoon="1"><edge_color a="1.0" b="0.0" g="0.0" r="0.0" /></material>
+<material b_name="kakidasi" both="0" drop_shadow="0" edge_size="1.0" ground_shadow="0" name="葉っぱ上" name_e="kakidasi" on_edge="0" on_shadow="0" toon="0" use_systemtoon="1"><edge_color a="1.0" b="0.0" g="0.0" r="0.0" /></material>
+</materials>
+<rigid_bodies>
+</rigid_bodies>
+<constraints>
+</constraints>
+</ns0:pmxstatus>

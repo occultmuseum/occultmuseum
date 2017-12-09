@@ -1,53 +1,61 @@
 fileFormatVersion: 2
-guid: 3b16a2cbc263cc044bc9e04adcc39aa6
+guid: 3fb2b33cce656d84486af04f9709960f
+timeCreated: 1512833740
+licenseType: Free
 ModelImporter:
-  serializedVersion: 16
+  serializedVersion: 19
   fileIDToRecycleName:
-    100000: ___
-    100002: ___.001
-    100004: ___.002
-    100006: ___.003
-    100008: ___.004
-    100010: _________
-    100012: ____Arm
-    100014: ____end
-    100016: Bone
-    100018: Bone_end
-    100020: Camera
-    100022: center
-    100024: center_end
-    100026: Cube.001
-    100028: //RootNode
-    400000: ___
-    400002: ___.001
-    400004: ___.002
-    400006: ___.003
-    400008: ___.004
-    400010: _________
-    400012: ____Arm
-    400014: ____end
-    400016: Bone
-    400018: Bone_end
-    400020: Camera
-    400022: center
-    400024: center_end
-    400026: Cube.001
-    400028: //RootNode
-    2300000: _________
+    100000: Bone
+    100002: Bone_end
+    100004: Camera
+    100006: center
+    100008: center_end
+    100010: Cube.000
+    100012: Cube.001
+    100014: Cube.002
+    100016: //RootNode
+    100018: "\u6728.002"
+    100020: "\u6728.003"
+    100022: "\u6728.004"
+    100024: "\u6728_Arm"
+    100026: "\u7403"
+    100028: "\u7403_end"
+    100030: "\u7ACB\u65B9\u4F53"
+    400000: Bone
+    400002: Bone_end
+    400004: Camera
+    400006: center
+    400008: center_end
+    400010: Cube.000
+    400012: Cube.001
+    400014: Cube.002
+    400016: //RootNode
+    400018: "\u6728.002"
+    400020: "\u6728.003"
+    400022: "\u6728.004"
+    400024: "\u6728_Arm"
+    400026: "\u7403"
+    400028: "\u7403_end"
+    400030: "\u7ACB\u65B9\u4F53"
+    2300000: Cube.000
     2300002: Cube.001
-    3300000: _________
+    2300004: Cube.002
+    2300006: "\u7ACB\u65B9\u4F53"
+    3300000: Cube.000
     3300002: Cube.001
-    4300000: ___.004
-    4300002: ___.003
-    4300004: ___.002
-    4300006: ___.001
-    4300008: Cube.001
-    4300010: _________
+    3300004: Cube.002
+    3300006: "\u7ACB\u65B9\u4F53"
+    4300000: Cube.002
+    4300002: Cube.000
+    4300004: "\u6728.004"
+    4300006: "\u6728.003"
+    4300008: "\u6728.002"
+    4300010: Cube.001
+    4300012: "\u7ACB\u65B9\u4F53"
     9500000: //RootNode
-    13700000: ___.001
-    13700002: ___.002
-    13700004: ___.003
-    13700006: ___.004
+    13700000: "\u6728.002"
+    13700002: "\u6728.003"
+    13700004: "\u6728.004"
   materials:
     importMaterials: 1
     materialName: 0
@@ -55,19 +63,24 @@ ModelImporter:
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
+    resampleCurves: 1
     optimizeGameObjects: 0
     motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
     animationCompression: 1
-    animationRotationError: .5
-    animationPositionError: .5
-    animationScaleError: .5
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
     clipAnimations: []
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: .00999999978
+    globalScale: 1
     meshCompression: 0
     addColliders: 0
     importBlendShapes: 1
@@ -75,30 +88,35 @@ ModelImporter:
     generateSecondaryUV: 0
     useFileUnits: 1
     optimizeMeshForGPU: 1
+    keepQuads: 0
     weldVertices: 1
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
+    useFileScale: 1
   tangentSpace:
     normalSmoothAngle: 60
-    splitTangentsAcrossUV: 1
     normalImportMode: 0
-    tangentImportMode: 1
+    tangentImportMode: 3
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
     human: []
     skeleton: []
-    armTwist: .5
-    foreArmTwist: .5
-    upperLegTwist: .5
-    legTwist: .5
-    armStretch: .0500000007
-    legStretch: .0500000007
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
     feetSpacing: 0
     rootMotionBoneName: 
+    hasTranslationDoF: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   animationType: 2
+  humanoidOversampling: 1
   additionalBone: 0
   userData: 
+  assetBundleName: 
+  assetBundleVariant: 
